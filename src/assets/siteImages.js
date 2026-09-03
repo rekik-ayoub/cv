@@ -1,19 +1,17 @@
 // Centralized assets catalogue for the virtual CV website
-import profileImg from '../assets/images/profile.jpg';
-import wearOsHygieneImg from '../assets/images/wearos_hygiene.jpg';
-import iotDashboardImg from '../assets/images/iot_dashboard.jpg';
-import ecosystemPfeImg from '../assets/images/ecosystem_pfe.jpg';
-import hospitalHygieneImg from '../assets/images/hospital_hygiene.jpg';
+// All images are served from public/images/ via BASE_URL for GitHub Pages compatibility
+
+const BASE = import.meta.env.BASE_URL;
 
 export const siteImages = {
   // Photo de profil Rekik Ayoub
-  profile: profileImg,
+  profile: `${BASE}images/profile.jpg`,
 
   // Images des projets
-  wearOsHygiene: wearOsHygieneImg,
-  iotDashboard: iotDashboardImg,
-  ecosystemPfe: ecosystemPfeImg,
-  hospitalHygiene: hospitalHygieneImg,
+  wearOsHygiene: `${BASE}images/wearos_hygiene.jpg`,
+  iotDashboard: `${BASE}images/iot_dashboard.jpg`,
+  ecosystemPfe: `${BASE}images/ecosystem_pfe.jpg`,
+  hospitalHygiene: `${BASE}images/hospital_hygiene.jpg`,
 };
 
 export default siteImages;
