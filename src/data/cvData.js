@@ -1,3 +1,5 @@
+import { siteImages } from '../assets/siteImages';
+
 export const cvData = {
   personal: {
     name: "Ayoub",
@@ -9,7 +11,7 @@ export const cvData = {
     location: "Sfax, Tunisie (Route Menzel Chaker 1.5 km) / Remote",
     email: "ayoubrekik15@gmail.com",
     phone: "+216 54 385 249",
-    avatar: `${import.meta.env.BASE_URL}images/profile.jpg`,
+    avatar: siteImages.profile,
     languages: ["Arabe (Natif)", "Français (Courant)", "Anglais (Professionnel)"],
     bio: "Titulaire d'une Licence en Ingénierie des Systèmes Informatiques, spécialité Internet des Objets (IoT) obtenue à la Faculté des Sciences de Sfax, je poursuis actuellement mon cycle d'ingénieur en cours du soir en Data Science & Intelligence Artificielle (IA) à l'IIT (International Institute of Technology - North American Private University). Passionné par l'informatique, les technologies embarquées, l'IA et le développement de solutions innovantes matérielles et logicielles, je recherche des opportunités stimulantes me permettant d'allier expertise pratique et formation académique d'excellence.",
     github: "https://github.com/rekik-ayoub",
@@ -73,7 +75,7 @@ export const cvData = {
       category: "IoT & IA Embarquée",
       featured: true,
       description: "Application Wear OS dédiée au personnel médical intégrant un modèle d'IA local (Edge AI) pour la reconnaissance en direct des gestes de lavage des mains et transmission BLE.",
-      image: `${import.meta.env.BASE_URL}images/wearos_hygiene.jpg`,
+      image: siteImages.wearOsHygiene,
       tags: ["Wear OS", "Edge Impulse", "IA Locale", "BLE", "Java/Kotlin", "Accéléromètre/Gyro"],
       liveUrl: "https://github.com/rekik-ayoub",
       githubUrl: "https://github.com/rekik-ayoub",
@@ -86,7 +88,7 @@ export const cvData = {
       category: "Web & Full Stack",
       featured: true,
       description: "Plateforme hospitalière de supervision centralisée recevant en direct les données télémétriques des modules connectés ESP32, avec tracking en temps réel et historique soignant.",
-      image: `${import.meta.env.BASE_URL}images/iot_dashboard.jpg`,
+      image: siteImages.iotDashboard,
       tags: ["React", "Laravel", "ESP32", "WebSockets", "MQTT", "REST API", "PostgreSQL"],
       liveUrl: "https://github.com/rekik-ayoub",
       githubUrl: "https://github.com/rekik-ayoub",
@@ -99,7 +101,7 @@ export const cvData = {
       category: "IoT & IA Embarquée",
       featured: true,
       description: "Système hospitalier IoT & IA interconnecté : distributeurs de gel connectés sur PCB/ESP32, balises BLE de géolocalisation patient, montres Wear OS et plateforme cloud.",
-      image: `${import.meta.env.BASE_URL}images/ecosystem_pfe.jpg`,
+      image: siteImages.ecosystemPfe,
       tags: ["ESP32", "PCB Design", "BLE Beacons", "Firmware C++", "Laravel", "Wear OS"],
       liveUrl: "https://github.com/rekik-ayoub",
       githubUrl: "https://github.com/rekik-ayoub",
